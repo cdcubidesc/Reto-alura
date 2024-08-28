@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4fa;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.input-section textarea {
+    width: 60%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.options-section {
+    margin-top: 20px;
+}
+
+.options-section label {
+    margin-right: 15px;
+}
+
+.output-section {
+    width: 30%;
+    text-align: center;
+}
+
+.output-image {
+    display: none;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#output-text {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.action-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ecf0f1;
+}
